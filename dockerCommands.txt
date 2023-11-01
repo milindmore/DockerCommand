@@ -21,9 +21,24 @@ sudo apt-get update
 # Start docker service
  sudo service docker start
 
-#run docker container hello-word
+ #run docker container hello-word
  sudo docker run hello-world
-
+ #Stop docker continer
+  suod docker stop Contianer_id
 
 https://github.com/docker/getting-started
 https://stackoverflow.com/questions/16840409/how-to-list-containers-in-docker
+
+
+#Create directory sample-image
+# Create file using name Dockerfile  
+FROM ubuntu:latest
+RUN apt-get -y update
+RUN apt-get -y install git
+#sudo dicker buidl -t sample-image
+
+
+
+
+
+
