@@ -18,6 +18,12 @@ sudo apt-get update
 #for Latest version
    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
+# Start docker service
+ sudo service docker start
+
+#run docker container hello-word
+ sudo docker run hello-world
+
 
 https://github.com/docker/getting-started
 https://stackoverflow.com/questions/16840409/how-to-list-containers-in-docker
