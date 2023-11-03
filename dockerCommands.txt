@@ -29,6 +29,10 @@ sudo apt-get update
 https://github.com/docker/getting-started
 https://stackoverflow.com/questions/16840409/how-to-list-containers-in-docker
 
+#remove all container
+sudo docker rm $(sudo docker ps -a -q)
+
+
 
 #Create directory sample-image
 # Create file using name Dockerfile  
