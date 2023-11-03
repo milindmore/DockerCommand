@@ -37,6 +37,10 @@ RUN apt-get -y update
 RUN apt-get -y install git
 #sudo dicker buidl -t sample-image
 
+#run docker
+sudo docker run -it myubuntu
+
+
 
 
 
